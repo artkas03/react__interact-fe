@@ -1,0 +1,50 @@
+.loginpage {
+  margin: 0 auto;
+  max-height: 100vh;
+  height: 100%;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 20%;
+    margin: 0 auto;
+
+    padding: 32px 24px;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 6px;
+  }
+
+  &__fieldgroup {
+    text-align: left;
+  }
+
+  &__input {
+    border: 1px solid lightgray;
+    padding: 6px 4px 6px 4px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  &__submit {
+    margin-top: 16px;
+  }
+
+  &__goto {
+    margin-top: 1em;
+    text-align: center;
+
+    &-link {
+      cursor: pointer;
+    }
+  }
+}
